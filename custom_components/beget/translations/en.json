@@ -1,0 +1,74 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Beget",
+        "description": "Enter your Beget account login and the API password. API access must be enabled in the Beget control panel; the API password is set there separately from the account password.",
+        "data": {
+          "username": "Login",
+          "password": "API password"
+        },
+        "data_description": {
+          "username": "Beget account login, e.g. ivanov7x",
+          "password": "Password for API access (not necessarily the control panel password)"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Beget: new API password",
+        "description": "The API password for {username} no longer works. Enter the current one.",
+        "data": {
+          "password": "API password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Wrong login or API password, or API access is disabled in the control panel.",
+      "cannot_connect": "Cannot reach api.beget.com.",
+      "api_error": "Beget API returned an error: {error}",
+      "unknown": "Unexpected error, see the log."
+    },
+    "abort": {
+      "already_configured": "This Beget account is already added.",
+      "reauth_successful": "Password updated."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "balance": {
+        "name": "Balance"
+      },
+      "days_to_block": {
+        "name": "Days until block"
+      },
+      "block_date": {
+        "name": "Block date"
+      },
+      "rate_day": {
+        "name": "Daily charge"
+      },
+      "rate_month": {
+        "name": "Monthly rate"
+      },
+      "rate_year": {
+        "name": "Yearly rate"
+      },
+      "plan": {
+        "name": "Plan"
+      },
+      "disk_used": {
+        "name": "Disk used"
+      },
+      "disk_usage": {
+        "name": "Disk usage"
+      },
+      "sites": {
+        "name": "Sites"
+      }
+    },
+    "button": {
+      "refresh": {
+        "name": "Refresh"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "entity": {
+    "sensor": {
+      "balance": { "default": "mdi:wallet" },
+      "days_to_block": { "default": "mdi:calendar-clock" },
+      "block_date": { "default": "mdi:calendar-alert" },
+      "rate_day": { "default": "mdi:cash-minus" },
+      "rate_month": { "default": "mdi:cash-multiple" },
+      "rate_year": { "default": "mdi:cash-multiple" },
+      "plan": { "default": "mdi:server" },
+      "disk_used": { "default": "mdi:harddisk" },
+      "disk_usage": { "default": "mdi:chart-donut" },
+      "sites": { "default": "mdi:web" }
+    },
+    "button": {
+      "refresh": { "default": "mdi:refresh" }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Beget",
+        "description": "Введите логин аккаунта Beget и пароль для API. Доступ к API нужно включить в панели управления Beget, пароль для API задаётся там отдельно от пароля аккаунта.",
+        "data": {
+          "username": "Логин",
+          "password": "Пароль API"
+        },
+        "data_description": {
+          "username": "Логин аккаунта Beget, например ivanov7x",
+          "password": "Пароль доступа к API (может отличаться от пароля панели)"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Beget: новый пароль API",
+        "description": "Пароль API для {username} больше не подходит. Введите актуальный.",
+        "data": {
+          "password": "Пароль API"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Неверный логин или пароль API, либо доступ к API выключен в панели.",
+      "cannot_connect": "Не удаётся связаться с api.beget.com.",
+      "api_error": "API Beget вернул ошибку: {error}",
+      "unknown": "Непредвиденная ошибка, подробности в журнале."
+    },
+    "abort": {
+      "already_configured": "Этот аккаунт Beget уже добавлен.",
+      "reauth_successful": "Пароль обновлён."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "balance": {
+        "name": "Баланс"
+      },
+      "days_to_block": {
+        "name": "Дней до блокировки"
+      },
+      "block_date": {
+        "name": "Дата блокировки"
+      },
+      "rate_day": {
+        "name": "Списание в день"
+      },
+      "rate_month": {
+        "name": "Тариф в месяц"
+      },
+      "rate_year": {
+        "name": "Тариф в год"
+      },
+      "plan": {
+        "name": "Тариф"
+      },
+      "disk_used": {
+        "name": "Занято на диске"
+      },
+      "disk_usage": {
+        "name": "Заполнение диска"
+      },
+      "sites": {
+        "name": "Сайты"
+      }
+    },
+    "button": {
+      "refresh": {
+        "name": "Обновить"
+      }
+    }
+  }
+}
