@@ -19,6 +19,13 @@
         "data": {
           "password": "API password"
         }
+      },
+      "reconfigure": {
+        "title": "Beget: change API password",
+        "description": "Enter the new API password for {username}.",
+        "data": {
+          "password": "API password"
+        }
       }
     },
     "error": {
@@ -29,7 +36,8 @@
     },
     "abort": {
       "already_configured": "This Beget account is already added.",
-      "reauth_successful": "Password updated."
+      "reauth_successful": "Password updated.",
+      "reconfigure_successful": "Password updated."
     }
   },
   "entity": {

@@ -19,6 +19,13 @@
         "data": {
           "password": "Пароль API"
         }
+      },
+      "reconfigure": {
+        "title": "Beget: смена пароля API",
+        "description": "Введите новый пароль API для {username}.",
+        "data": {
+          "password": "Пароль API"
+        }
       }
     },
     "error": {
@@ -29,7 +36,8 @@
     },
     "abort": {
       "already_configured": "Этот аккаунт Beget уже добавлен.",
-      "reauth_successful": "Пароль обновлён."
+      "reauth_successful": "Пароль обновлён.",
+      "reconfigure_successful": "Пароль обновлён."
     }
   },
   "entity": {
